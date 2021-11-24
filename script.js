@@ -34,6 +34,34 @@ function updateCircle(){
        dot4.style.backgroundColor = 'orange'
   }
 }
+dot1.addEventListener('click', function(){
+  console.log("dot 1 clicked");
+  marginLeft = 140;
+  useMarR = marginLeft.toString();
+  photos.style.marginLeft = useMarR + "px";
+  updateCircle();
+});
+dot2.addEventListener('click', function(){
+  console.log("dot 2 clicked");
+  marginLeft = -60;
+  useMarR = marginLeft.toString();
+  photos.style.marginLeft = useMarR + "px";
+  updateCircle();
+});
+dot3.addEventListener('click', function(){
+  console.log("dot 3 clicked");
+  marginLeft = -260;
+  useMarR = marginLeft.toString();
+  photos.style.marginLeft = useMarR + "px";
+  updateCircle();
+});
+dot4.addEventListener('click', function(){
+  console.log("dot 4 clicked");
+  marginLeft = -460;
+  useMarR = marginLeft.toString();
+  photos.style.marginLeft = useMarR + "px";
+  updateCircle();
+});
 forBtn.addEventListener('click', function(){
     console.log("forward button clicked");
     marginLeft -= 200;
