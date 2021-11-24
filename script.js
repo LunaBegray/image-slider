@@ -10,7 +10,7 @@ forBtn.addEventListener('click', function(){
         useMarR = marginLeft.toString();
         photos.style.marginLeft = useMarR + "px";
         console.log(photos.style.marginLeft);
-    }
+    } else { marginLeft += 200}
 });
 bacBtn.addEventListener('click', function(){
     console.log("backward button clicked");
@@ -19,5 +19,5 @@ bacBtn.addEventListener('click', function(){
          useMarR = marginLeft.toString();
          photos.style.marginLeft = useMarR + "px";
          console.log(photos.style.marginLeft);
-    }
+    } else {marginLeft -= 200}
 });
