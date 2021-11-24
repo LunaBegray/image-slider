@@ -1,13 +1,13 @@
 body{
     display:flex;
-    align-items: center;
+    justify-content: center;
 }
 .container{
     width:200px;
     height:300px;
     border-width: 40px;
     border-color: black;
-    margin-left: 500px;
+    margin-left: 140px;
 }
 .img{
     width:200px;
@@ -17,7 +17,7 @@ body{
     display:flex;
     width:800px;
     height:300px;
-    margin-left: 500px;
+    margin-left: 140px;
 }
 .BtnCon{
     margin-top: 350px;
