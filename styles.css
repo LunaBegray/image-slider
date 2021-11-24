@@ -1,0 +1,20 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:200px;
+    height:300px;
+    border-width: 10px;
+    border-color: black;
+}
+.img{
+    width:200px;
+    height:300px;
+}
+.photos{
+    display:flex;
+    width:800px;
+    height:300px;
+}
