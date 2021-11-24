@@ -18,8 +18,21 @@ body{
     width:800px;
     height:300px;
     margin-left: 140px;
+    transition: margin 700ms;
 }
 .BtnCon{
     margin-top: 350px;
     margin-right: 200px;
+}
+.dot {
+  height: 55px;
+  width: 55px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top:430px;
+}
+.dotsCon{
+  margin-left:-340px;
+  height:60px;
 }
