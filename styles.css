@@ -1,12 +1,11 @@
 body{
     display:flex;
     justify-content: center;
-    align-items: center;
 }
 .container{
     width:200px;
     height:300px;
-    border-width: 10px;
+    border-width: 40px;
     border-color: black;
 }
 .img{
@@ -17,4 +16,8 @@ body{
     display:flex;
     width:800px;
     height:300px;
+}
+.BtnCon{
+    margin-top: 320px;
+    margin-right: 200px;
 }
