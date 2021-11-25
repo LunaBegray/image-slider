@@ -82,3 +82,18 @@ bacBtn.addEventListener('click', function(){
          updateCircle();
     } else {marginLeft -= 200}
 });
+
+var interval = setInterval(function() { 
+    if (time <= 400) { 
+         marginLeft -= 200;
+         if(marginLeft >= -460){
+              useMarR = marginLeft.toString();
+              photos.style.marginLeft = useMarR + "px";
+              updateCircle();
+         }
+       time++;
+    }
+    else { 
+       clearInterval(interval);
+    }
+ }, 4000);
